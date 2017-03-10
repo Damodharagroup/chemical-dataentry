@@ -1,0 +1,146 @@
+.column {
+	border: 1px solid black;
+	line-height: 2em;
+	padding: 20px;
+}
+.column1 {
+	min-width: 250px;
+}
+.htext {
+	text-transform: capitalize;
+    font-weight: bold;
+    font-size :125%;
+    padding: 10px 0px 10px 0px;
+}
+.inp {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #2e3d49;
+	width: 300px;
+	font-size: 14px;
+	border-radius: 2px;
+	border: 1px solid #dbe2e8;
+	box-shadow: 0 0.25em 0.5em 0 rgba(46, 61, 73, 0.12);
+	transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: ">>";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.error {
+  color: #FF0000;
+}
+.error1 {
+  margin-top: 10px;
+  color: #FF0000;
+  text-align: center;
+  font-size: 110%;
+}
+.sidebar {
+  float : left;
+  font-size: 120%;
+  height: 590px;
+  color: white;
+  background-color: #674C47;
+  width: 20%;
+}
+.opp-sidebar {
+  padding : 30px 0px 0px 30px ;
+  height: 590px;
+  float : right;
+  width: 80%;
+  background-color: #e9e3ac;
+}
+.content {
+  margin: 10px 0px 10px 0px; 
+}
+.button1 {
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color:#B0C4DE;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  width: 150px;
+
+}
+.divisionhead {
+  text-transform: capitalize;
+  color: #1e495f ;
+  font-weight: bolder;
+  font-size: 150%;
+  background-color: #8b8b8b;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.divisionbody {
+  padding: 0px 30px 10px 30px ;
+  font-size: 125%;
+  max-width: 100%;
+  line-height: 1.7;
+}
+
+.main {
+
+  width: 100%;
+}
+.divisionbutton {
+  /*width: 25%;*/
+  background-color: #8b8b8b;
+  float: left;
+  margin: 0px 0px 10px 10px;
+}
+.headin {
+  text-align: center;
+  color: #1e495f;
+  padding: 20px 0px 10px 0px;
+  font-weight: bolder;
+  font-size: 140%;
+}
+.bodyleft {
+  float: left;
+  max-width: 30%;
+}
+.bodyright {
+  float: right;
+  color: #1e495f;
+  padding-right: 30px;
+}
+.bodybottom {
+
+}
