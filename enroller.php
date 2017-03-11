@@ -149,10 +149,10 @@
 </html>
 <?php
 
-    $server = "localhost";
-    $mysqli_username = "root";
-    $mysqli_password = "datta";
-    $db_name = "chemicals";
+    $server = "us-cdbr-iron-east-03.cleardb.net";
+    $mysqli_username = "b0802f70ec104e";
+    $mysqli_password = "b1ea8495";
+    $db_name = "heroku_f766fea1b6951ab";
     $link = mysqli_connect("$server", "$mysqli_username" ,"$mysqli_password","$db_name") or die("can not connect");
 
 	if(isset($_POST['submit']) && isset($_SESSION['enrolluser']))
